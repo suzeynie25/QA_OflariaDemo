@@ -3,6 +3,7 @@ def calculate_average(scores):
         return 0
     return sum(scores) / len(scores)
 
+
 def get_letter_grade(average):
     if average >= 90:
         return "A"
