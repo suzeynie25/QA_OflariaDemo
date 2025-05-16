@@ -23,3 +23,7 @@ def test_no_digit():
 
 def test_no_special_char():
     assert not is_strong_password("Weak1234")
+
+
+def test_blank_password():
+    assert not is_strong_password("")
